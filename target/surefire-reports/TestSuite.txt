@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 1,169.983 sec <<< FAILURE! - in TestSuite
+testSwipeFavouriteImages(com.houzify.scripts.MyProfileTest)  Time elapsed: 137.467 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at com.houzify.scripts.MyProfileTest.testSwipeFavouriteImages(MyProfileTest.java:44)
+
+testTutorial(com.houzify.scripts.TutorialTest)  Time elapsed: 97.775 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at com.houzify.scripts.TutorialTest.testTutorial(TutorialTest.java:42)
+
+testGoogleLogin(com.houzify.scripts.NewUserRegTest)  Time elapsed: 67.356 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at com.houzify.scripts.NewUserRegTest.testGoogleLogin(NewUserRegTest.java:131)
+
+testFBLogin(com.houzify.scripts.NewUserRegTest)  Time elapsed: 10.465 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at com.houzify.scripts.NewUserRegTest.testFBLogin(NewUserRegTest.java:154)
+

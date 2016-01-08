@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="com.houzify.baselib.HouzifyTestngListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.houzify.scripts.FilterTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setobjects"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.houzify.scripts.FilterTest -->
+      <class name="com.houzify.scripts.TutorialTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testTutorial"/>
+        </methods>
+      </class> <!-- com.houzify.scripts.TutorialTest -->
+      <class name="com.houzify.scripts.NewUserRegTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testFBLogin"/>
+          <include name="testGoogleLogin"/>
+        </methods>
+      </class> <!-- com.houzify.scripts.NewUserRegTest -->
+      <class name="com.houzify.scripts.HomeTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.houzify.scripts.HomeTest -->
+      <class name="com.houzify.scripts.MyProfileTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testSwipeFavouriteImages"/>
+        </methods>
+      </class> <!-- com.houzify.scripts.MyProfileTest -->
+      <class name="com.houzify.scripts.TopPicksTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.houzify.scripts.TopPicksTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
